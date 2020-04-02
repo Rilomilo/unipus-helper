@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>获取版本链接</title>
-        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    </head>
-    <body>
-        <script>
-            $.ajax({
-                type: "GET",
-                url: "https://rilomilo.github.io/unipus-helper/release/version.json?t=" + Math.random(),
-                success: function(t) {
-                    location.href = t.update_package
-                },
-                error: function(e) {
-                    $("body").append("<p>获取版本失败</p>")
-                }
-            });
-        </script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>获取版本链接</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159923476-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-159923476-2');
+    </script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $.ajax({
+            type: "GET",
+            url: "https://rilomilo.github.io/unipus-helper/release/version.json?t=" + Math.random(),
+            success: function(t) {
+                location.href = t.update_package
+            },
+            error: function(e) {
+                $("body").append("<p>获取版本失败</p>")
+            }
+        });
+    </script>
+</body>
 </html>
