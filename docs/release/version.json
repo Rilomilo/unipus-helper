@@ -1,7 +1,7 @@
 {
-    "title":"来更新吧",
-    "version":"0.8.0",
-    "available_version":["0.8.0"],
-    "message":"<p>快来更新吧<p/>",
-    "update_package":"https://rilomilo.github.io/unipus-helper/release/轮播图.zip"
+    "title":"快来更新吧",
+    "version":"0.8.1",
+    "available_version":["0.8.0","0.8.1"],
+    "message":"<p>0.8.1版本优化了一些细节</p><p>快来更新吧<p/>",
+    "update_package":"https://rilomilo.github.io/unipus-helper/release/unipus_helper_v0.8.1.zip"
 }
